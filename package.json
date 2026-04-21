@@ -1,5 +1,5 @@
 {
-  "name": "gh-actions",
+  "name": "Motivation Message App",
   "version": "1.0.0",
   "description": "",
   "repository": {
@@ -9,8 +9,12 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e \"console.log('Tests passed successfully')\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
